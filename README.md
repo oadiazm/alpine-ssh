@@ -21,4 +21,3 @@ To connect the docker container via ssh.
 ssh root@localhost -p 2222
 ```
 Use Password: **root**
-> Use Password: **root**
