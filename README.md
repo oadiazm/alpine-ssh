@@ -11,13 +11,13 @@ container creation.
 
 I have exposed the port 22 in the Dockerfile. You can use the below command to run the docker container.
 
-<pre>
+```bash
 $ docker run -d -p 2222:22 oscard/alpine-ssh
-</pre>
+```
 
 To connect the docker container via ssh.
 
-<pre>
+```bash
 ssh root@localhost -p 2222
-</pre>
-Use Password: <b> root </b>
+```
+Use Password: ** root **
